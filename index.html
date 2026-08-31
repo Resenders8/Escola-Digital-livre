@@ -31,9 +31,37 @@
                 <img src="./assets/logo.png" alt="Logo Educação Digital Livre">
                 <!-- img: adiciona imagem / src: caminho da imagem / alt: legenda da imagem -->
 
-                <span></span>
-                <p>Isso é um parágrafo</p>
+                <span class="logo-text">
+                    <!-- sapan: elemento de texto inline, não quebra linha sozinho -->
+                    <span class="logo-title">Escola Digital livre</span>
+                    <span class="logo-subtitle">Tecnologia para todos</span>
+                </span>
             </a>
+
+
+            <nav class="main-nav">
+                <!-- Tag semântica para o menu de navegação -->
+
+                <a href="index.html" class="nav-link active">Inicio</a>
+                <!-- a (link) para a navegação | href é o caminho da página | "active" destaca a página atual -->
+
+                <a href="./cursos.html" class="nav-link">Cursos</a>
+                <a href="#" class="nav-link">Sobre</a>
+                <a href="#" class="nav-link">Contato</a>
+            </nav>
+
+            <div class="header-actions">
+                <!-- Agrupa os botões de busca e botão CTA -->
+
+                <div class="search-box">
+                    <input type="text" placeholder="Buscar cursos...">
+                    <!-- input campo de entrada | placeholder some assim que o usuário digita -->
+                     <img src="./assets/icons8-search.svg" alt="icone de pesquisa">
+                </div>
+
+                <button class="btn-primary">Começar agora</button>
+                <!-- Botões para ações na pagina -->
+            </div>
         </div>
     </header>
 </body>
